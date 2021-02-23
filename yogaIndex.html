@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/yoga.css">
+    <title>home yoga</title>
+    <script>
+        function showDate(){
+            var d = new Date();
+            document.getElementsByClassName("dateDiv").innerHTML = d;
+            document.getElementById("date1").innerHTML = d;
+        }
+    </script>
+</head>
+<body onload="showDate()">
+    <img class="logo" src="image/hasLogo.png" width="100px" height="auto" alt="mylogo">
+    <header>
+        <div class="demo">
+            <h1 class="heading1">path of light yoga studio</h1>
+
+        </div>
+    </header>
+    <nav>
+        <b>
+            <a href="#">Home &nbsp;</a> <a href="yogaClass.html">Classes &nbsp;</a><a href="#">Schedule &nbsp;</a><a href="#">Contact us</a>
+
+        </b>
+    </nav>
+    <main>
+        <h2>find your inner light</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo perferendis deleniti cumque, officia dolor beatae consectetur quaerat perspiciatis enim excepturi, veritatis vitae nemo fugit placeat non assumenda sequi maiores incidunt.</p>
+        <ul>
+            <li>Hathya yoga class</li>
+            <li>drop ins welcome</li>
+            <li>mats , blocks and blankets provided</li>
+            <li>relax in our serenity lounge before and after your class</li>
+        </ul>
+        <p>
+           Path of Light yoga studio<br>
+            612 broadway<br>
+            El dorado ca 12<br>
+            888-225-665
+        </p>
+        <script src="gsap/minified/gsap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    </main>
+    <footer>
+        <small>
+            <i>
+                Copyright &copy; light yoga studio all rights reserved <div class="dateDiv"><script>showDate();</script></div>
+            </i>
+        </small>
+        <div id="date1"></div>
+        <a href="mailto:wonderf@gmail.com">wonderf@gmail.com</a>
+    </footer>
+    
+</body>
+</html>
